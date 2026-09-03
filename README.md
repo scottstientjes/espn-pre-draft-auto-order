@@ -1,6 +1,8 @@
 # ESPN Fantasy Pre-Draft Rankings Sync
 
-A Chrome extension that imports your own custom fantasy football rankings
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+A free Chrome extension that imports your own custom fantasy football rankings
 (as a CSV) and lines them up against ESPN Fantasy Football's pre-draft
 "Edit Rankings" table — either as a drag guide, or by driving the reorder
 for you automatically. You review the result and click ESPN's own **Save**
@@ -92,6 +94,11 @@ Issues and PRs welcome — DOM-selector fixes if ESPN changes their markup
 are especially useful, since that's the part most likely to drift over
 time.
 
+## License
+
+[MIT](LICENSE) — free to use, modify, and redistribute, for any purpose,
+including commercially.
+
 ## Files
 
 - `manifest.json` — Manifest V3 extension config
@@ -101,3 +108,4 @@ time.
 - `common/csv.js` — CSV parsing
 - `common/match.js` — name normalization and CSV-to-row matching
 - `sample_rankings.csv` — example CSV in the expected format
+- `LICENSE` — MIT
